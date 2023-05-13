@@ -1,0 +1,9 @@
+version:3.1
+  service:
+	  selenium-chrome-standalone:
+    		image: selenium/standalone-chrome:latest
+    		shm_size: 2gb
+    		container_name: selenium-chrome-standalone
+    		ports:
+      		- "4444:4444"
+      		- "7900:7900"
